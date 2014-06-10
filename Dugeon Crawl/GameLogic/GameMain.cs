@@ -6,10 +6,17 @@ using System.Threading.Tasks;
 
 using System.Drawing;
 
-namespace Dugeon_Crawl.GameLogic
+namespace Dungeon_Crawl.GameLogic
 {
+    /// <summary>
+    /// The write-once logic for the entire game - for both console and graphics
+    /// </summary>
     static class GameMain
     {
+        /// <summary>
+        /// This is the entry point for the logic of the game
+        /// </summary>
+        /// <param name="gameControl">Pass in either a GameConsoleVersion or a GameGraphicsVersion</param>
         public static void StartGame(IGame gameControl)
         {
             gameControl.ChangeTriangleColor(Color.Red);

@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 using System.Drawing;
 
-namespace Dugeon_Crawl.ConsoleGame
+namespace Dungeon_Crawl.ConsoleGame
 {
+    /// <summary>
+    /// The main implementation for the console version of the game
+    /// </summary>
     class GameConsoleVersion : IGame
     {
         public void ChangeTriangleColor(Color color)

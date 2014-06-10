@@ -9,27 +9,14 @@ using OpenTK.Graphics.OpenGL;
 using OpenTK.Input;
 using System.Drawing;
 
-namespace Dugeon_Crawl
+namespace Dungeon_Crawl
 {
     class Program
     {
-        static int ChooseGameType()
-        {
-            Console.Write("Which version would you like to play? \n1.) Console\n2.) Graphics\n");
-            char input = Console.ReadKey().KeyChar;
-
-            switch (input)
-            {
-                case '1':
-                    return 1;
-                case '2':
-                    return 2;
-                default:
-                    Console.WriteLine("That game version does not exist. Please try again.");
-                    return ChooseGameType();
-            }
-        }
-
+        /// <summary>
+        /// Our main entry point for the program
+        /// </summary>
+        /// <param name="args">Command line arguments</param>
         [STAThread]
         static void Main(string[] args)
         {
@@ -48,6 +35,27 @@ namespace Dugeon_Crawl
                         };
                     game.Run(60.0);
                 }
+            }
+        }
+
+        /// <summary>
+        /// Finds what game type the user wants to play with validation check
+        /// </summary>
+        /// <returns>1 for console, 2 for graphics</returns>
+        static int ChooseGameType()
+        {
+            Console.Write("Which version would you like to play? \n1.) Console\n2.) Graphics\n");
+            char input = Console.ReadKey().KeyChar;
+
+            switch (input)
+            {
+                case '1':
+                    return 1;
+                case '2':
+                    return 2;
+                default:
+                    Console.WriteLine("That game version does not exist. Please try again.");
+                    return ChooseGameType();
             }
         }
     }
