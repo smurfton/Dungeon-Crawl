@@ -60,7 +60,7 @@ namespace Dugeon_Crawl
  
                     game.SwapBuffers();
 
-                    Console.WriteLine("Hello!");
+                    Console.WriteLine("Hello world!");
                 };
  
                 // Run the game at 60 updates per second
