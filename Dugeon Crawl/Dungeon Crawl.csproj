@@ -54,6 +54,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConsoleGame\GameConsoleVersion.cs" />
+    <Compile Include="GameLogic\GameMain.cs" />
+    <Compile Include="GraphicsGame\GameGraphicsVersion.cs" />
+    <Compile Include="GraphicsGame\IDrawable.cs" />
+    <Compile Include="GraphicsGame\ILoadable.cs" />
+    <Compile Include="GraphicsGame\IUpdatable.cs" />
+    <Compile Include="IGame.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

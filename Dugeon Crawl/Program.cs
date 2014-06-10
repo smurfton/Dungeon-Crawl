@@ -13,58 +13,41 @@ namespace Dugeon_Crawl
 {
     class Program
     {
+        static int ChooseGameType()
+        {
+            Console.Write("Which version would you like to play? \n1.) Console\n2.) Graphics\n");
+            char input = Console.ReadKey().KeyChar;
+
+            switch (input)
+            {
+                case '1':
+                    return 1;
+                case '2':
+                    return 2;
+                default:
+                    Console.WriteLine("That game version does not exist. Please try again.");
+                    return ChooseGameType();
+            }
+        }
+
         [STAThread]
         static void Main(string[] args)
         {
-            using (var game = new GameWindow())
+            if (ChooseGameType() == 1) // Start console game
             {
-                game.Load += (sender, e) =>
+                ConsoleGame.GameConsoleVersion game = new ConsoleGame.GameConsoleVersion();
+                GameLogic.GameMain.StartGame(game);
+            }
+            else // Start graphics game
+            {
+                using (GraphicsGame.GameGraphicsVersion game = new GraphicsGame.GameGraphicsVersion())
                 {
-                    // setup settings, load textures, sounds
-                    game.VSync = VSyncMode.On;
-                };
- 
-                game.Resize += (sender, e) =>
-                {
-                    GL.Viewport(0, 0, game.Width, game.Height);
-                };
- 
-                game.UpdateFrame += (sender, e) =>
-                {
-                    // add game logic, input handling
-                    if (game.Keyboard[Key.Escape])
-                    {
-                        game.Exit();
-                    }
-                };
- 
-                game.RenderFrame += (sender, e) =>
-                {
-                    // render graphics
-                    GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit);
- 
-                    GL.MatrixMode(MatrixMode.Projection);
-                    GL.LoadIdentity();
-                    GL.Ortho(-1.0, 1.0, -1.0, 1.0, 0.0, 4.0);
- 
-                    GL.Begin(PrimitiveType.Triangles);
- 
-                    GL.Color3(Color.MidnightBlue);
-                    GL.Vertex2(-1.0f, 1.0f);
-                    GL.Color3(Color.SpringGreen);
-                    GL.Vertex2(0.0f, -1.0f);
-                    GL.Color3(Color.Ivory);
-                    GL.Vertex2(1.0f, 1.0f);
- 
-                    GL.End();
- 
-                    game.SwapBuffers();
-
-                    Console.WriteLine("Hello world!");
-                };
- 
-                // Run the game at 60 updates per second
-                game.Run(60.0);
+                    game.Load += (object o, EventArgs e) =>
+                        {
+                            GameLogic.GameMain.StartGame(game);
+                        };
+                    game.Run(60.0);
+                }
             }
         }
     }
