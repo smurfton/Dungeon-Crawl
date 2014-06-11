@@ -6,3 +6,5 @@ C:\cpts\Dungeon Crawl\Dungeon-Crawl\Dugeon Crawl\bin\Debug\OpenTK.dll
 C:\cpts\Dungeon Crawl\Dungeon-Crawl\Dugeon Crawl\bin\Debug\OpenTK.GLControl.dll
 C:\cpts\Dungeon Crawl\Dungeon-Crawl\Dugeon Crawl\obj\Debug\Dugeon Crawl.exe
 C:\cpts\Dungeon Crawl\Dungeon-Crawl\Dugeon Crawl\obj\Debug\Dugeon Crawl.pdb
+C:\cpts\Dungeon Crawl\Dungeon-Crawl\Dugeon Crawl\obj\Debug\Dungeon Crawl.csprojResolveAssemblyReference.cache
+C:\cpts\Dungeon Crawl\Dungeon-Crawl\Dugeon Crawl\bin\Debug\Content\Conversations\Bob\Bob.xml

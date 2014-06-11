@@ -20,6 +20,7 @@ namespace Dungeon_Crawl.GameLogic
         public static void StartGame(IGame gameControl)
         {
             gameControl.ChangeTriangleColor(Color.Red);
+            gameControl.TalkToBob(new GameConversation.Conversation("Content\\Conversations\\Bob\\Bob.xml"));
         }
     }
 }

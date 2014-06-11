@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conversation Editor", "Conversation Editor\Conversation Editor.csproj", "{CD5B2AFC-27C9-4ED6-A807-A80B314A4CF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD5B2AFC-27C9-4ED6-A807-A80B314A4CF4}.Debug|x86.ActiveCfg = Debug|x86
+		{CD5B2AFC-27C9-4ED6-A807-A80B314A4CF4}.Debug|x86.Build.0 = Debug|x86
+		{CD5B2AFC-27C9-4ED6-A807-A80B314A4CF4}.Release|x86.ActiveCfg = Release|x86
+		{CD5B2AFC-27C9-4ED6-A807-A80B314A4CF4}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

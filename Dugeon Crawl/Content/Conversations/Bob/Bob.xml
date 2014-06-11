@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<ArrayOfXmlNode xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <XmlNode>
+    <isLinkedNode>false</isLinkedNode>
+    <nodeLinkedTo />
+    <speakerType>NPC</speakerType>
+    <dialog>Yooooo wazzzzzupppppp?!</dialog>
+    <tag>n1</tag>
+    <executeScripts />
+    <executeScriptDescriptions />
+    <nodes>
+      <XmlNode>
+        <isLinkedNode>false</isLinkedNode>
+        <nodeLinkedTo />
+        <speakerType>PC</speakerType>
+        <dialog>Why were you in a bush?</dialog>
+        <tag>p1</tag>
+        <executeScripts />
+        <executeScriptDescriptions />
+        <nodes>
+          <XmlNode>
+            <isLinkedNode>false</isLinkedNode>
+            <nodeLinkedTo />
+            <speakerType>NPC</speakerType>
+            <dialog>Hehehehe (Runs away)</dialog>
+            <tag>n2</tag>
+            <executeScripts />
+            <executeScriptDescriptions />
+            <nodes>
+              <XmlNode>
+                <isLinkedNode>false</isLinkedNode>
+                <nodeLinkedTo />
+                <speakerType>PC</speakerType>
+                <dialog>[End Conversation]</dialog>
+                <tag>p4</tag>
+                <executeScripts />
+                <executeScriptDescriptions />
+                <nodes />
+                <parentNode>n2</parentNode>
+                <checkScriptInverted>false</checkScriptInverted>
+              </XmlNode>
+            </nodes>
+            <parentNode>p1</parentNode>
+            <checkScriptInverted>false</checkScriptInverted>
+          </XmlNode>
+        </nodes>
+        <parentNode>n1</parentNode>
+        <checkScriptInverted>false</checkScriptInverted>
+      </XmlNode>
+      <XmlNode>
+        <isLinkedNode>false</isLinkedNode>
+        <nodeLinkedTo />
+        <speakerType>PC</speakerType>
+        <dialog>WHAT THE FUCK?!?!</dialog>
+        <tag>p2</tag>
+        <executeScripts />
+        <executeScriptDescriptions />
+        <nodes>
+          <XmlNode>
+            <isLinkedNode>true</isLinkedNode>
+            <nodeLinkedTo>n2</nodeLinkedTo>
+            <speakerType>NPC</speakerType>
+            <dialog>Hehehehe (Runs away)</dialog>
+            <tag>n2</tag>
+            <executeScripts />
+            <executeScriptDescriptions />
+            <nodes />
+            <parentNode>p2</parentNode>
+            <checkScriptInverted>false</checkScriptInverted>
+          </XmlNode>
+        </nodes>
+        <parentNode>n1</parentNode>
+        <checkScriptInverted>false</checkScriptInverted>
+      </XmlNode>
+      <XmlNode>
+        <isLinkedNode>false</isLinkedNode>
+        <nodeLinkedTo />
+        <speakerType>PC</speakerType>
+        <dialog>Can I have some of that weed?</dialog>
+        <tag>p3</tag>
+        <executeScripts />
+        <executeScriptDescriptions />
+        <nodes>
+          <XmlNode>
+            <isLinkedNode>true</isLinkedNode>
+            <nodeLinkedTo>n2</nodeLinkedTo>
+            <speakerType>NPC</speakerType>
+            <dialog>Hehehehe (Runs away)</dialog>
+            <tag>n2</tag>
+            <executeScripts />
+            <executeScriptDescriptions />
+            <nodes />
+            <parentNode>p3</parentNode>
+            <checkScriptInverted>false</checkScriptInverted>
+          </XmlNode>
+        </nodes>
+        <parentNode>n1</parentNode>
+        <checkScriptInverted>false</checkScriptInverted>
+      </XmlNode>
+    </nodes>
+    <parentNode />
+    <checkScriptInverted>false</checkScriptInverted>
+  </XmlNode>
+</ArrayOfXmlNode>
