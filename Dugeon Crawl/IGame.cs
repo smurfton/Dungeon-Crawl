@@ -18,5 +18,11 @@ namespace Dungeon_Crawl
         /// </summary>
         /// <param name="color">Color to change to.</param>
         void ChangeTriangleColor(Color color);
+
+        /// <summary>
+        /// A temporary function to demonstrate the conversation editor and its use.
+        /// </summary>
+        /// <param name="whatConversation">Which conversation we're going to have</param>
+        void TalkToBob(GameLogic.GameConversation.Conversation whatConversation);
     }
 }

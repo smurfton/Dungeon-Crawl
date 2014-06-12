@@ -1,0 +1,35 @@
+C:\Users\Patrick\Documents\Project Caching\ConversationEditor\Conversation Editor\bin\Debug\Conversation Editor.exe
+C:\Users\Patrick\Documents\Project Caching\ConversationEditor\Conversation Editor\bin\Debug\Conversation Editor.pdb
+C:\Users\Patrick\Documents\Project Caching\ConversationEditor\Conversation Editor\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Patrick\Documents\Project Caching\ConversationEditor\Conversation Editor\obj\x86\Debug\Conversation_Editor.Properties.Resources.resources
+C:\Users\Patrick\Documents\Project Caching\ConversationEditor\Conversation Editor\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Patrick\Documents\Project Caching\ConversationEditor\Conversation Editor\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Patrick\Documents\Project Caching\ConversationEditor\Conversation Editor\obj\x86\Debug\Conversation Editor.exe
+C:\Users\Patrick\Documents\Project Caching\ConversationEditor\Conversation Editor\obj\x86\Debug\Conversation Editor.pdb
+C:\Users\Patrick\Documents\Project Caching\ConversationEditor\Conversation Editor\obj\x86\Debug\Conversation_Editor.ConversationEditor.resources
+C:\Users\Patrick\Documents\Project Caching\ConversationEditor\Conversation Editor\obj\x86\Debug\Conversation_Editor.TokenSelector.resources
+C:\Users\Patrick\Documents\Project Caching\ConversationEditor\Conversation Editor\obj\x86\Debug\Conversation_Editor.ScriptSelector.resources
+C:\Users\Patrick\Documents\Project Caching\ConversationEditor\Conversation Editor\obj\x86\Debug\Conversation_Editor.Temporary_Script_Wiz.resources
+C:\Users\Patrick\Documents\Project Caching\ConversationEditor\Conversation Editor\bin\Debug\Conversation Editor.exe.manifest
+C:\Users\Patrick\Documents\Project Caching\ConversationEditor\Conversation Editor\bin\Debug\Conversation Editor.application
+C:\Users\Patrick\Documents\Project Caching\ConversationEditor\Conversation Editor\obj\x86\Debug\Conversation Editor.TrustInfo.xml
+C:\Users\Patrick\Documents\Project Caching\ConversationEditor\Conversation Editor\obj\x86\Debug\Conversation Editor.exe.manifest
+C:\Users\Patrick\Documents\Project Caching\ConversationEditor\Conversation Editor\obj\x86\Debug\Conversation Editor.application
+C:\Users\Patrick\Documents\Project Caching\ConversationEditor\Conversation Editor\obj\x86\Debug\Conversation_Editor.StringDialog.resources
+C:\cpts\Dungeon Crawl\Dungeon-Crawl\ConversationEditor\Conversation Editor\obj\x86\Debug\Conversation Editor.exe
+C:\cpts\Dungeon Crawl\Dungeon-Crawl\ConversationEditor\Conversation Editor\obj\x86\Debug\Conversation Editor.pdb
+C:\cpts\Dungeon Crawl\Dungeon-Crawl\ConversationEditor\Conversation Editor\bin\Debug\Conversation Editor.exe.manifest
+C:\cpts\Dungeon Crawl\Dungeon-Crawl\ConversationEditor\Conversation Editor\bin\Debug\Conversation Editor.application
+C:\cpts\Dungeon Crawl\Dungeon-Crawl\ConversationEditor\Conversation Editor\bin\Debug\Conversation Editor.exe
+C:\cpts\Dungeon Crawl\Dungeon-Crawl\ConversationEditor\Conversation Editor\bin\Debug\Conversation Editor.pdb
+C:\cpts\Dungeon Crawl\Dungeon-Crawl\ConversationEditor\Conversation Editor\obj\x86\Debug\Conversation Editor.csprojResolveAssemblyReference.cache
+C:\cpts\Dungeon Crawl\Dungeon-Crawl\ConversationEditor\Conversation Editor\obj\x86\Debug\Conversation_Editor.ConversationEditor.resources
+C:\cpts\Dungeon Crawl\Dungeon-Crawl\ConversationEditor\Conversation Editor\obj\x86\Debug\Conversation_Editor.Properties.Resources.resources
+C:\cpts\Dungeon Crawl\Dungeon-Crawl\ConversationEditor\Conversation Editor\obj\x86\Debug\Conversation_Editor.ScriptSelector.resources
+C:\cpts\Dungeon Crawl\Dungeon-Crawl\ConversationEditor\Conversation Editor\obj\x86\Debug\Conversation_Editor.StringDialog.resources
+C:\cpts\Dungeon Crawl\Dungeon-Crawl\ConversationEditor\Conversation Editor\obj\x86\Debug\Conversation_Editor.Temporary_Script_Wiz.resources
+C:\cpts\Dungeon Crawl\Dungeon-Crawl\ConversationEditor\Conversation Editor\obj\x86\Debug\Conversation_Editor.TokenSelector.resources
+C:\cpts\Dungeon Crawl\Dungeon-Crawl\ConversationEditor\Conversation Editor\obj\x86\Debug\Conversation Editor.csproj.GenerateResource.Cache
+C:\cpts\Dungeon Crawl\Dungeon-Crawl\ConversationEditor\Conversation Editor\obj\x86\Debug\Conversation Editor.TrustInfo.xml
+C:\cpts\Dungeon Crawl\Dungeon-Crawl\ConversationEditor\Conversation Editor\obj\x86\Debug\Conversation Editor.exe.manifest
+C:\cpts\Dungeon Crawl\Dungeon-Crawl\ConversationEditor\Conversation Editor\obj\x86\Debug\Conversation Editor.application

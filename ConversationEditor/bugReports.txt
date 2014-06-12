@@ -1,0 +1,4 @@
+Conversation Editor Bugs
+can add child nodes to child linked node after fact
+does not save with correct extension
+does not have "New" function

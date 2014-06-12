@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity version="1.0.0.4" name="Conversation Editor.exe" publicKeyToken="35734011a2c81f67" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="Icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Conversation Editor" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Conversation Editor.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Conversation Editor.exe" size="104960">
+      <assemblyIdentity name="Conversation Editor" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>R3epoqfbZGPcrMvjAloIzN1QW4E=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Icon.ico" size="6870">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>VlBY39oCG/q48eNn+FL3jjX1keg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=Jacon\Patrick" issuerKeyHash="e13ae0c0a594a6a1ae9745176224ec46134d667c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>OlC7idI1SwWGvMwrOx+nhLmYOFg=</DigestValue></Reference></SignedInfo><SignatureValue>AfKOGDivNBUwFvLINmsqyRhKhkIjPhEljNuLtR1ci1r+wbMeMq+YGZZC+2qu/Yk9NG3+QUMxdJDKuqthuNk7f/GGlIQhaHpPJVMLctxsbtvdPQJhSzIanE2B/25QAiM6RTjaPRsASmCOuxnjqhMyIVk7Pby0i6GRHX1QYh6wQ/s=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xY68bdY53V7aeAvyaXjq1F6mTlxzRq7lcAOZPNoJHapaiJvj53KdiOnEunXfg0mdCTcwEu44E3QTrBz6e+fXN5Ua4q7tUXTLON5YCi5ezeCrE9kjM6FmAKScwwueEt51BiJYm04eAN6hxjS/IRsvE2Kzcu2buYaUuO6mntRVOD8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="583898b984a71f3b2bccbc86054b35d289bb503a" Description="" Url=""><as:assemblyIdentity version="1.0.0.4" name="Conversation Editor.exe" publicKeyToken="35734011a2c81f67" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Jacon\Patrick</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>N5mH0i2ODI1ZGB/Tz6LyrdsYA/E=</DigestValue></Reference></SignedInfo><SignatureValue>LGPny3cEGpemPNy+66z5QuHbXNPPfP8H1xqVIXsdmCag4brPcHGtNSVSaISL4UxB8lVD21kQdfAEQCo+n0FOX9yXF6UEDRxJH5dPuwd/V41shYmolSU+A/hgblQ9iBfdvbky8GEluOzMxREH6xmZvxNPgE4UJC6Db0bU5VHO8gQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xY68bdY53V7aeAvyaXjq1F6mTlxzRq7lcAOZPNoJHapaiJvj53KdiOnEunXfg0mdCTcwEu44E3QTrBz6e+fXN5Ua4q7tUXTLON5YCi5ezeCrE9kjM6FmAKScwwueEt51BiJYm04eAN6hxjS/IRsvE2Kzcu2buYaUuO6mntRVOD8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQbcn+PZT/vahIchMbdZMPvzANBgkqhkiG9w0BAQUFADAlMSMwIQYDVQQDHhoASgBhAGMAbwBuAFwAUABhAHQAcgBpAGMAazAeFw0xMjA4MDYxMjUwMjJaFw0xMzA4MDYxODUwMjJaMCUxIzAhBgNVBAMeGgBKAGEAYwBvAG4AXABQAGEAdAByAGkAYwBrMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDFjrxt1jndXtp4C/JpeOrUXqZOXHNGruVwA5k82gkdqlqIm+Pncp2I6cS6dd+DSZ0JNzAS7jgTdBOsHPp759c3lRriru1RdMs43lgKLl7N4KsT2SMzoWYApJzDC54S3nUGIlibTh4A3qHGNL8hGy8TYrNy7Zu5hpS47qae1FU4PwIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAE7oe40XcB0jDVBX+DaRz5HwP2XED1CrswbcWAjzjBnUivgggaT3rvuVwqN5UYyxxhdsafRtiJCSIHdgtz5rED8+EA/f8eL4D5N8TofyYlb2iwQj5a88etxSZDXp6qKV6mjpUj6CgapEhn62I0r1fdeEyA9YFB2kaRoRVK8OF8JP</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

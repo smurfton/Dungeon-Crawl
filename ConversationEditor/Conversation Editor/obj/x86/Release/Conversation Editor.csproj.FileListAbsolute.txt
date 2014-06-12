@@ -1,0 +1,35 @@
+C:\Users\Patrick\Documents\Project Caching\ConversationEditor\Conversation Editor\bin\Release\Conversation Editor.exe.manifest
+C:\Users\Patrick\Documents\Project Caching\ConversationEditor\Conversation Editor\bin\Release\Conversation Editor.application
+C:\Users\Patrick\Documents\Project Caching\ConversationEditor\Conversation Editor\bin\Release\Conversation Editor.exe
+C:\Users\Patrick\Documents\Project Caching\ConversationEditor\Conversation Editor\bin\Release\Conversation Editor.pdb
+C:\Users\Patrick\Documents\Project Caching\ConversationEditor\Conversation Editor\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Patrick\Documents\Project Caching\ConversationEditor\Conversation Editor\obj\x86\Release\Conversation_Editor.ConversationEditor.resources
+C:\Users\Patrick\Documents\Project Caching\ConversationEditor\Conversation Editor\obj\x86\Release\Conversation_Editor.Properties.Resources.resources
+C:\Users\Patrick\Documents\Project Caching\ConversationEditor\Conversation Editor\obj\x86\Release\Conversation_Editor.ScriptSelector.resources
+C:\Users\Patrick\Documents\Project Caching\ConversationEditor\Conversation Editor\obj\x86\Release\Conversation_Editor.Temporary_Script_Wiz.resources
+C:\Users\Patrick\Documents\Project Caching\ConversationEditor\Conversation Editor\obj\x86\Release\Conversation_Editor.TokenSelector.resources
+C:\Users\Patrick\Documents\Project Caching\ConversationEditor\Conversation Editor\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Patrick\Documents\Project Caching\ConversationEditor\Conversation Editor\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Patrick\Documents\Project Caching\ConversationEditor\Conversation Editor\obj\x86\Release\Conversation Editor.TrustInfo.xml
+C:\Users\Patrick\Documents\Project Caching\ConversationEditor\Conversation Editor\obj\x86\Release\Conversation Editor.exe.manifest
+C:\Users\Patrick\Documents\Project Caching\ConversationEditor\Conversation Editor\obj\x86\Release\Conversation Editor.application
+C:\Users\Patrick\Documents\Project Caching\ConversationEditor\Conversation Editor\obj\x86\Release\Conversation Editor.exe
+C:\Users\Patrick\Documents\Project Caching\ConversationEditor\Conversation Editor\obj\x86\Release\Conversation Editor.pdb
+C:\Users\Patrick\Documents\Project Caching\ConversationEditor\Conversation Editor\obj\x86\Release\Conversation_Editor.StringDialog.resources
+C:\Users\Jacon\Documents\Senior Project\ConversationEditor\Conversation Editor\obj\x86\Release\Conversation Editor.exe
+C:\Users\Jacon\Documents\Senior Project\ConversationEditor\Conversation Editor\obj\x86\Release\Conversation Editor.pdb
+C:\Users\Jacon\Documents\Senior Project\ConversationEditor\Conversation Editor\bin\Release\Conversation Editor.exe.manifest
+C:\Users\Jacon\Documents\Senior Project\ConversationEditor\Conversation Editor\bin\Release\Conversation Editor.application
+C:\Users\Jacon\Documents\Senior Project\ConversationEditor\Conversation Editor\bin\Release\Conversation Editor.exe
+C:\Users\Jacon\Documents\Senior Project\ConversationEditor\Conversation Editor\bin\Release\Conversation Editor.pdb
+C:\Users\Jacon\Documents\Senior Project\ConversationEditor\Conversation Editor\obj\x86\Release\Conversation_Editor.ConversationEditor.resources
+C:\Users\Jacon\Documents\Senior Project\ConversationEditor\Conversation Editor\obj\x86\Release\Conversation_Editor.Properties.Resources.resources
+C:\Users\Jacon\Documents\Senior Project\ConversationEditor\Conversation Editor\obj\x86\Release\Conversation_Editor.ScriptSelector.resources
+C:\Users\Jacon\Documents\Senior Project\ConversationEditor\Conversation Editor\obj\x86\Release\Conversation_Editor.StringDialog.resources
+C:\Users\Jacon\Documents\Senior Project\ConversationEditor\Conversation Editor\obj\x86\Release\Conversation_Editor.Temporary_Script_Wiz.resources
+C:\Users\Jacon\Documents\Senior Project\ConversationEditor\Conversation Editor\obj\x86\Release\Conversation_Editor.TokenSelector.resources
+C:\Users\Jacon\Documents\Senior Project\ConversationEditor\Conversation Editor\obj\x86\Release\Conversation Editor.csproj.GenerateResource.Cache
+C:\Users\Jacon\Documents\Senior Project\ConversationEditor\Conversation Editor\obj\x86\Release\Conversation Editor.TrustInfo.xml
+C:\Users\Jacon\Documents\Senior Project\ConversationEditor\Conversation Editor\obj\x86\Release\Conversation Editor.exe.manifest
+C:\Users\Jacon\Documents\Senior Project\ConversationEditor\Conversation Editor\obj\x86\Release\Conversation Editor.application
+C:\Users\Jacon\Documents\Senior Project\ConversationEditor\Conversation Editor\obj\x86\Release\Conversation Editor.csprojResolveAssemblyReference.cache

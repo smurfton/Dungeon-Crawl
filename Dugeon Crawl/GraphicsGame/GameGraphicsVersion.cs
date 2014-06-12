@@ -84,5 +84,11 @@ namespace Dungeon_Crawl.GraphicsGame
         {
             testColor = color;
         }
+
+
+        public void TalkToBob(GameLogic.GameConversation.Conversation whatConversation)
+        {
+            //@tmp
+        }
     }
 }
