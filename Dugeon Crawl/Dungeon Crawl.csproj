@@ -58,7 +58,20 @@
     <Compile Include="GameLogic\GameConversation\Conversation.cs" />
     <Compile Include="GameLogic\GameConversation\ConversationNode.cs" />
     <Compile Include="GameLogic\GameConversation\XmlNode.cs" />
+    <Compile Include="GameLogic\GameLevel\DescribableObject.cs" />
+    <Compile Include="GameLogic\GameLevel\Loading\XmlArea.cs" />
+    <Compile Include="GameLogic\GameLevel\Loading\XmlCeilingPlane.cs" />
+    <Compile Include="GameLogic\GameLevel\Loading\XmlFloorPlane.cs" />
+    <Compile Include="GameLogic\GameLevel\Loading\XmlMap.cs" />
+    <Compile Include="GameLogic\GameLevel\Loading\XmlWallPlane.cs" />
+    <Compile Include="GameLogic\GameLevel\Map.cs" />
+    <Compile Include="GameLogic\GameLevel\PlaceableObject.cs" />
+    <Compile Include="GameLogic\GameLevel\Placeables\CeilingPlane.cs" />
+    <Compile Include="GameLogic\GameLevel\Placeables\FloorPlane.cs" />
+    <Compile Include="GameLogic\GameLevel\Placeables\WallPlane.cs" />
+    <Compile Include="GameLogic\GameLevel\Area.cs" />
     <Compile Include="GameLogic\GameMain.cs" />
+    <Compile Include="GameLogic\GameLevel\Tile.cs" />
     <Compile Include="GraphicsGame\GameGraphicsVersion.cs" />
     <Compile Include="GraphicsGame\IDrawable.cs" />
     <Compile Include="GraphicsGame\ILoadable.cs" />
@@ -76,6 +89,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
