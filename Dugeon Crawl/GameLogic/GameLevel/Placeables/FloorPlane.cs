@@ -4,13 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using System.Runtime.Serialization;
+
 using OpenTK;
 
-namespace Dugeon_Crawl.GameLogic.GameLevel.Placeables
+namespace Dungeon_Crawl.GameLogic.GameLevel.Placeables
 {
     /// <summary>
     /// Represents a floor- a 1x1 plane sitting on the ground
     /// </summary>
+    [DataContract]
     class FloorPlane : PlaceableObject
     {
         /// <summary>

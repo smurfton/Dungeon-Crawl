@@ -3,18 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Runtime.Serialization;
 
-namespace Dugeon_Crawl.GameLogic.GameLevel
+namespace Dungeon_Crawl.GameLogic.GameLevel
 {
     /// <summary>
     /// Represents something like a room or a certain logical division of the map.
     /// Idea is for the console version to explore using areas instead of tiles.
     /// </summary>
+    [DataContract]
     class Area : DescribableObject
     {
         /// <summary>
         /// Any tile that is within this area should be added to this collection
         /// </summary>
+        [DataMember]
         public List<Tile> AssociatedTiles { get; set; }
 
         /// <summary>

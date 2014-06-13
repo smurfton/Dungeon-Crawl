@@ -47,6 +47,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -59,11 +60,6 @@
     <Compile Include="GameLogic\GameConversation\ConversationNode.cs" />
     <Compile Include="GameLogic\GameConversation\XmlNode.cs" />
     <Compile Include="GameLogic\GameLevel\DescribableObject.cs" />
-    <Compile Include="GameLogic\GameLevel\Loading\XmlArea.cs" />
-    <Compile Include="GameLogic\GameLevel\Loading\XmlCeilingPlane.cs" />
-    <Compile Include="GameLogic\GameLevel\Loading\XmlFloorPlane.cs" />
-    <Compile Include="GameLogic\GameLevel\Loading\XmlMap.cs" />
-    <Compile Include="GameLogic\GameLevel\Loading\XmlWallPlane.cs" />
     <Compile Include="GameLogic\GameLevel\Map.cs" />
     <Compile Include="GameLogic\GameLevel\PlaceableObject.cs" />
     <Compile Include="GameLogic\GameLevel\Placeables\CeilingPlane.cs" />
