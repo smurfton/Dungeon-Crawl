@@ -8,3 +8,7 @@ C:\cpts\Dungeon Crawl\Dungeon-Crawl\Dugeon Crawl\obj\Debug\Dugeon Crawl.exe
 C:\cpts\Dungeon Crawl\Dungeon-Crawl\Dugeon Crawl\obj\Debug\Dugeon Crawl.pdb
 C:\cpts\Dungeon Crawl\Dungeon-Crawl\Dugeon Crawl\obj\Debug\Dungeon Crawl.csprojResolveAssemblyReference.cache
 C:\cpts\Dungeon Crawl\Dungeon-Crawl\Dugeon Crawl\bin\Debug\Content\Conversations\Bob\Bob.xml
+C:\Users\Simon\Documents\GitHub\Dungeon-Crawl\Dugeon Crawl\bin\Debug\Dugeon Crawl.exe.config
+C:\Users\Simon\Documents\GitHub\Dungeon-Crawl\Dugeon Crawl\obj\Debug\Dugeon Crawl.exe
+C:\Users\Simon\Documents\GitHub\Dungeon-Crawl\Dugeon Crawl\obj\Debug\Dugeon Crawl.pdb
+C:\Users\Simon\Documents\GitHub\Dungeon-Crawl\Dugeon Crawl\obj\Debug\Dungeon Crawl.csprojResolveAssemblyReference.cache

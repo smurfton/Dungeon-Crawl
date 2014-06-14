@@ -33,6 +33,7 @@ namespace Dugeon_Crawl.GameLogic.GameLevel
         /// Defined as (-1, 0)
         /// </summary>
         West
+                                    //While the cardinal directions are adressed here, what about the half directions?
     }
 
     /// <summary>
