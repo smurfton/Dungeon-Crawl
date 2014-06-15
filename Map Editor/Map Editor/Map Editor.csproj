@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D0D62893-BE84-42CA-A099-5F28447E2EAA}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{B348CEAB-0353-4C3D-B894-77A83B3C5854}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Dugeon_Crawl</RootNamespace>
-    <AssemblyName>Dugeon Crawl</AssemblyName>
+    <RootNamespace>Map_Editor</RootNamespace>
+    <AssemblyName>Map Editor</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -46,46 +46,49 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConsoleGame\GameConsoleVersion.cs" />
-    <Compile Include="GameLogic\GameConversation\Conversation.cs" />
-    <Compile Include="GameLogic\GameConversation\ConversationNode.cs" />
-    <Compile Include="GameLogic\GameConversation\XmlNode.cs" />
-    <Compile Include="GameLogic\GameLevel\DescribableObject.cs" />
-    <Compile Include="GameLogic\GameLevel\Map.cs" />
-    <Compile Include="GameLogic\GameLevel\PlaceableObject.cs" />
-    <Compile Include="GameLogic\GameLevel\Placeables\CeilingPlane.cs" />
-    <Compile Include="GameLogic\GameLevel\Placeables\FloorPlane.cs" />
-    <Compile Include="GameLogic\GameLevel\Placeables\WallPlane.cs" />
-    <Compile Include="GameLogic\GameLevel\Area.cs" />
-    <Compile Include="GameLogic\GameMain.cs" />
-    <Compile Include="GameLogic\GameLevel\Tile.cs" />
-    <Compile Include="GraphicsGame\GameGraphicsVersion.cs" />
-    <Compile Include="GraphicsGame\IDrawable.cs" />
-    <Compile Include="GraphicsGame\ILoadable.cs" />
-    <Compile Include="GraphicsGame\IUpdatable.cs" />
-    <Compile Include="IGame.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Content\Conversations\Bob\Bob.fgconv" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="Content\Conversations\Bob\Bob.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -4,28 +4,33 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using OpenTK;
+using System.Runtime.Serialization;
 
-namespace Dugeon_Crawl.GameLogic.GameLevel
+namespace Dungeon_Crawl.GameLogic.GameLevel
 {
     /// <summary>
     /// Represents a simple 3D object that is placed in a map
     /// </summary>
+    [DataContract]
     abstract class PlaceableObject
     {
         /// <summary>
         /// Typically a placeable will just occupy a single tile. However, if you have a
         /// huge-ass placeable, I could see it taking up more than one
         /// </summary>
-        protected List<Tile> occupiedTiles;
+        [DataMember]
+        protected List<Tile> occupiedTiles = new List<Tile>();
 
         /// <summary>
         /// Position in 3D space. Doesn't have to be uints like tiles! Could be anywhere!
         /// </summary>
+        [DataMember]
         public Vector3 Position { get; protected set; }
 
         /// <summary>
         /// An Euler rotation (xyz) in radians. Appropriate for a placeable object
         /// </summary>
+        [DataMember]
         public Vector3 EulerRotation { get; protected set; }
 
         /// <summary>
@@ -37,7 +42,7 @@ namespace Dugeon_Crawl.GameLogic.GameLevel
             return Matrix4.CreateRotationX(EulerRotation.X) *
                 Matrix4.CreateRotationY(EulerRotation.Y) *
                 Matrix4.CreateRotationZ(EulerRotation.Z) *
-                Matrix4.Translation(Position);
+                Matrix4.CreateTranslation(Position);
         }
     }
 }

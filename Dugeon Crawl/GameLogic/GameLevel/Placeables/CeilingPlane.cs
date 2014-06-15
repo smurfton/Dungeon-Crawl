@@ -4,13 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using System.Runtime.Serialization;
+
 using OpenTK;
 
-namespace Dugeon_Crawl.GameLogic.GameLevel.Placeables
+namespace Dungeon_Crawl.GameLogic.GameLevel.Placeables
 {
     /// <summary>
     /// Represents a ceiling- a 1x1 plane that is hovering
     /// </summary>
+    [DataContract]
     class CeilingPlane : PlaceableObject
     {
         /// <summary>

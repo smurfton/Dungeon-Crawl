@@ -4,14 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using System.Runtime.Serialization;
+
 using OpenTK;
 
-namespace Dugeon_Crawl.GameLogic.GameLevel.Placeables
+namespace Dungeon_Crawl.GameLogic.GameLevel.Placeables
 {
     /// <summary>
     /// Represents- you got it- a wall. Think of it as a 1x1 plane sitting in 3d space.
     /// Although the actual geometry is not defined here (nor should it be)
     /// </summary>
+    [DataContract]
     class WallPlane : PlaceableObject
     {
         /// <summary>

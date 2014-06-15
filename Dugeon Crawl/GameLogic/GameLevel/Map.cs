@@ -4,13 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using OpenTK;
+using System.Runtime.Serialization;
+using System.IO;
 
 using TileGrid = System.Collections.Generic.List<
     System.Collections.Generic.List<
     System.Collections.Generic.List<
-    Dugeon_Crawl.GameLogic.GameLevel.Tile>>>;
+    Dungeon_Crawl.GameLogic.GameLevel.Tile>>>;
 
-namespace Dugeon_Crawl.GameLogic.GameLevel
+namespace Dungeon_Crawl.GameLogic.GameLevel
 {
     /// <summary>
     /// Defines the cardinal directions!
@@ -39,11 +41,52 @@ namespace Dugeon_Crawl.GameLogic.GameLevel
     /// <summary>
     /// Represents a whole map which is a chunk of the world that the player will explore
     /// </summary>
+    [DataContract]
     class Map
     {
+        [DataMember]
         public List<Area> Areas { get; set; }
+        [DataMember]
         public TileGrid TileGrid { get; set; }
+        [DataMember]
         public List<PlaceableObject> AllPlaceables { get; set; }
+
+        /// <summary>
+        /// Creates a new map from an xml document
+        /// </summary>
+        /// <param name="xmlFilePath">The path to the .xml</param>
+        /// <returns>The deserialized map</returns>
+        public static Map LoadMap(string xmlFilePath)
+        {
+            Stream stream = File.Open(xmlFilePath, FileMode.Open);
+            DataContractSerializer serializer = GetSerializer();
+            object map = serializer.ReadObject(stream);
+            stream.Close();
+            return map as Map;
+        }
+
+        /// <summary>
+        /// Saves this map to a xml file
+        /// </summary>
+        /// <param name="xmlFilePath">The path to the .xml</param>
+        public void SaveMap(string xmlFilePath)
+        {
+            Stream stream = File.Create(xmlFilePath);
+            DataContractSerializer serializer = GetSerializer();
+            serializer.WriteObject(stream, this);
+            stream.Close();
+        }
+
+        private static DataContractSerializer GetSerializer()
+        {
+            DataContractSerializerSettings settings = new DataContractSerializerSettings();
+            Type[] types = { typeof(Area), typeof(Tile), typeof(PlaceableObject),
+                           typeof(DescribableObject), typeof(Placeables.WallPlane),
+                           typeof(Placeables.FloorPlane), typeof(Placeables.CeilingPlane)};
+            settings.KnownTypes = types;
+            settings.PreserveObjectReferences = true;
+            return new DataContractSerializer(typeof(Map), settings);
+        }
 
         /// <summary>
         /// Constructs a new map
@@ -53,6 +96,9 @@ namespace Dugeon_Crawl.GameLogic.GameLevel
         /// <param name="zSize">Z size, in tile units, of the map</param>
         public Map(uint xSize, uint ySize, uint zSize)
         {
+            Areas = new List<Area>();
+            AllPlaceables = new List<PlaceableObject>();
+
             // Populate grid! This part is verbose, but luckily it's only done once
             TileGrid = new TileGrid();
             for (uint x = 0; x < xSize; x++)
