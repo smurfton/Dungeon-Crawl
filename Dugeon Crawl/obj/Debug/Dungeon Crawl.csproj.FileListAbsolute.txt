@@ -11,3 +11,10 @@ C:\cpts\Dungeon Crawl\Dungeon-Crawl\Dugeon Crawl\bin\Debug\Content\Conversations
 C:\Users\Simon\Documents\GitHub\Dungeon-Crawl\Dugeon Crawl\bin\Debug\Dugeon Crawl.exe.config
 C:\Users\Simon\Documents\GitHub\Dungeon-Crawl\Dugeon Crawl\obj\Debug\Dugeon Crawl.exe
 C:\Users\Simon\Documents\GitHub\Dungeon-Crawl\Dugeon Crawl\obj\Debug\Dugeon Crawl.pdb
+C:\Users\Simon\Documents\GitHub\Dungeon-Crawl\Dugeon Crawl\obj\Debug\Dungeon Crawl.csprojResolveAssemblyReference.cache
+C:\Users\Simon\Documents\GitHub\Dungeon-Crawl\Dugeon Crawl\bin\Debug\Content\Conversations\Bob\Bob.xml
+C:\Users\Simon\Documents\GitHub\Dungeon-Crawl\Dugeon Crawl\bin\Debug\Dugeon Crawl.exe
+C:\Users\Simon\Documents\GitHub\Dungeon-Crawl\Dugeon Crawl\bin\Debug\Dugeon Crawl.pdb
+C:\Users\Simon\Documents\GitHub\Dungeon-Crawl\Dugeon Crawl\bin\Debug\OpenTK.Compatibility.dll
+C:\Users\Simon\Documents\GitHub\Dungeon-Crawl\Dugeon Crawl\bin\Debug\OpenTK.dll
+C:\Users\Simon\Documents\GitHub\Dungeon-Crawl\Dugeon Crawl\bin\Debug\OpenTK.GLControl.dll

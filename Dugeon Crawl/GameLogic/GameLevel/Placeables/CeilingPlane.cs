@@ -26,6 +26,7 @@ namespace Dungeon_Crawl.GameLogic.GameLevel.Placeables
                 associatedTile.PositionZ + 0.5f);
             EulerRotation = new Vector3(MathHelper.Pi, 0, 0);
             occupiedTiles.Add(associatedTile);
+            associatedTile.HasCeiling = true;
         }
     }
 }

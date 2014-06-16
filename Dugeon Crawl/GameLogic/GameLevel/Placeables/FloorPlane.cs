@@ -25,6 +25,7 @@ namespace Dungeon_Crawl.GameLogic.GameLevel.Placeables
             Position = new Vector3(associatedTile.PositionX, associatedTile.PositionY,
                 associatedTile.PositionZ - 0.5f);
             occupiedTiles.Add(associatedTile);
+            associatedTile.HasFloor = true;
         }
     }
 }

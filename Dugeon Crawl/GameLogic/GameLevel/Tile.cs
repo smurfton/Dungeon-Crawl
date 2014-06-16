@@ -23,13 +23,16 @@ namespace Dungeon_Crawl.GameLogic.GameLevel
         /// <param name="y">y position of the tile in the map</param>
         /// <param name="z">z position of the tile in the map</param>
         public Tile(uint x, uint y, uint z)
-        {
+        {//This stuff is performed on creation, right?
             AssociatedAreas = new List<Area>();
             AssociatedPlaceables = new List<PlaceableObject>();
 
             PositionX = x;
             PositionY = y;
             PositionZ = z;
+
+            HasCeiling = false;
+            HasFloor = false;
         }
         /// <summary>
         /// X position in space. Should correspond to an index stored in a map
@@ -57,5 +60,12 @@ namespace Dungeon_Crawl.GameLogic.GameLevel
         /// </summary>
         [DataMember]
         public List<Area> AssociatedAreas { get; set; }
+
+        [DataMember]
+        public Boolean HasFloor { get; set; }
+
+        [DataMember]
+        public Boolean HasCeiling { get; set; }
+
     }
 }

@@ -56,5 +56,47 @@ namespace Dungeon_Crawl.ConsoleGame
             Console.WriteLine();
             return Convert.ToInt32(c.ToString()) - 1;
         }
+
+        /// <summary>
+        /// Draws the map
+        /// </summary>
+        int DrawMap(Dungeon_Crawl.GameLogic.GameLevel.Map Map, int z)
+        {
+            int xSize, ySize, zSize;
+
+            xSize = Map.TileGrid.Count();
+            ySize = Map.TileGrid[0].Count();
+            zSize = Map.TileGrid[0][0].Count();
+
+            if (z > zSize || z < 0)
+            {
+                return -1;
+            }
+            for (int y = 0; y < ySize; y++ ) 
+            {
+                for (int x = 0; x < xSize; x++)
+                {
+                    //draw map here.
+                    if (Map.TileGrid[x][y][z].HasFloor)
+                    {
+                        Console.Write(".");
+                    }
+                    else if (Map.TileGrid[x][y][z].HasCeiling)
+                    {
+                        Console.Write("#");
+                    }
+                    else
+                    {
+                        Console.Write("#");
+                    }
+                }
+                Console.WriteLine();
+            }
+            return 0;
+        }
+
+        
     }
 }
+
+

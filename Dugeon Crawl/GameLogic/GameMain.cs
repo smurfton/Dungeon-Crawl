@@ -38,7 +38,7 @@ namespace Dungeon_Crawl.GameLogic
 
             Area TheOnlyRoomInThisDungeon = new Area("The Amazing Closet",
                 "You wake up to almost complete darkness. The only source of light is a hole" +
-                " in the ceiling. However, this is irrelevant because you don't need to see." +
+                " in the ceiling. However, this is irrelevant because you don't need to see." + //yes you do patrick. No light = no description.
                 " You can feel using your hands with equivalent authority that you're trapped" +
                 " in a closet with no escape.", roomTiles);
             testMap.Areas.Add(TheOnlyRoomInThisDungeon);

@@ -49,7 +49,7 @@ namespace Dungeon_Crawl.GraphicsGame
         /// <param name="e"></param>
         protected override void OnRenderFrame(FrameEventArgs e)
         {
-            GL.GenBuffer
+            GL.GenBuffer();
             GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit);
 
             GL.MatrixMode(MatrixMode.Projection);
